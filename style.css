@@ -1,0 +1,190 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body{
+	font-family: 'PT Sans', sans-serif;
+}
+.img{
+	width: 100%;
+	height: auto;
+}
+.header-area{
+	background-color: #fbdb00;
+}
+.menu-icon{
+	color:#010101;
+
+}
+.menu-icon i{
+	font-size: 25px;
+	padding: 10px;
+}
+
+.social-icons ul li a{
+	color: #010101;
+	font-size: 25px;
+	padding: 10px;
+
+}
+.header-top{
+	padding: 55px;
+
+}
+
+
+
+.slide-text{
+text-align: center;
+}
+
+.slide-text h1{
+	font-size: 48px;
+}
+
+.slide-text p{
+	color: #313841;
+
+}
+
+.slide-icon ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	list-style: none;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+
+
+}
+.slide-icon ul li{
+	width: 70px;
+	height: 70px;
+	border: 2px solid #000;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-radius: 50%;
+	margin: 0 35px;
+
+
+}
+.slide-icon ul li i{
+	font-size: 35px;
+
+}
+.tiny-slider{
+	padding: 145px 0;
+}
+
+.tiny-indicators button {
+	width: 10px !important;
+	height: 10px !important;
+	border-radius: 50%;
+	
+}
+.follow{
+	display: none;
+}
+
+/*Feature area*/
+
+.features-area{
+	background-color: #fff;
+	padding: 55px 0;
+}
+
+.section-title{
+	text-align: center;
+	padding: 60px 0;
+
+}
+.section-title h2{
+	font-size: 32px;
+	color: #010101;
+	font-weight: 700;
+
+}
+.section-title p{
+	font-size: 20px;
+	color: #313841;
+
+}
+
+.features-content article{
+	padding: 45px 0;
+
+}
+.features-content article h4{
+		font-size: 22px;
+	color: #010101;
+
+}
+.features-content article p{
+		font-size: 16px;
+	color: #898989;
+
+}
+
+
+
+.phone{
+	position: relative;
+	
+}
+.feature-logo{
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+
+	
+}
+/*Feature area end*/
+
+/*Footer area start */
+
+.btn-subscribe{
+	background-color: #fbdb00;
+}
+.footer-area{
+	background-color: #010101;
+}
+
+
+.footer-area h2{
+	color: #fcdb00;
+}
+.footer-area p{
+	color: #898989;
+}
+
+.subscribe-form{
+padding: 45px 0;
+}
+.footer-bottom{
+	padding: 70px 0;
+}
+.footer-bottom ul{
+	list-style: none;
+}
+.footer-bottom ul li{
+	color: #ffffff;
+	font-size: 16px;
+}
+.footer-bottom ul li a{
+	color: #fff;
+}
+.footer-bottom ul li a:hover{
+	color: #fcdb00;
+
+}
+	
